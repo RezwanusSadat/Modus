@@ -1,0 +1,356 @@
+/*===========common css===========*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border:0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@font-face{
+    font-family: crimsontext-roman;
+    src: url('../fonts/crimsontext-roman.ttf');
+}
+@font-face{
+    font-family: Montserrat-Regular;
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+@font-face{
+    font-family: CrimsonText-Italic;
+    src: url('../fonts/CrimsonText-Italic.ttf');
+}
+/*===============wrapper part============*/
+
+.wrapper_full{
+    width: 100%;
+}
+.wrapper1{
+    width: 1280px;
+    margin:auto;
+}
+.wrapper2{
+    width: 1170px;
+    margin: auto;
+}
+
+/*=============header part=============*/
+.header{
+    height: 90px;
+}
+
+/*-----------logo--------------*/
+.logo{
+    float: left;
+}
+.logo img{
+    padding: 24px 0;
+}
+
+/*---------menu------------*/
+.menu{
+    float: right;
+}
+.menu ul li{
+    list-style-type: none;
+    line-height: 90px;
+    float: left;
+    overflow: hidden;
+}
+.menu ul li a{
+    padding: 0 15px;
+    display: block;
+    color: #8d8d8d;
+    font-size: 13px;
+    font-family: Montserrat-Regular;
+}
+.menu ul li:hover a{
+    color: #00c7fc;
+    font-weight: bold;
+}
+
+/*===========slider part=========*/
+
+.slide_full{
+    background-color: #131316;
+}
+.slide{
+    height: 725px;
+    text-align: center;
+    font-family: Montserrat-Regular;
+}
+.slide h6{
+    font-size: 15px;
+    color: #d8d8d8;
+    padding-top: 255px;
+}
+.slide h1{
+    padding-top: 48px;
+    padding-bottom: 53px;
+    font-size: 50px;
+    color: #ffffff;
+}
+.slide a{
+    padding: 22px 52px;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 0 15px;
+    border-radius: 5px;
+}
+.slide a:hover {
+    background-color: #00c7fc;
+    border:0;
+}
+
+/*==============history part==================*/
+.history_full{
+    background-color: #f4f4f4;
+}
+.history{
+    height:530px;
+    text-align: center;
+}
+.history h1{
+    font-family: Montserrat-Regular;
+    font-size: 25px;
+    color: #231f20;
+    padding-top: 145px;
+}
+.history img{
+    padding: 40px 0;
+}
+.history p{
+    font-family: crimsontext-roman;
+    font-size: 15px;
+    color: #637988;
+    line-height: 20px;
+}
+
+/* ===============Portfolio Part==============*/
+
+.portfolio_full{
+    height:555px;
+}
+.portfolio_left{
+    width: 50%;
+    height:555px;
+    background-color: #131316;
+    float:left;
+}
+.portfolio_right{
+    width: 50%;
+    height:555px;
+    background-color: #fff;
+    float: left;
+}
+.portfolio{
+    width: 320px;
+    height: 555px;
+}
+.portfolio .image{
+    height: 205px;
+}
+.portfolio .work{
+    height: 350px;
+    width: 320px;
+    background-color: #04a3ce;
+    text-align: center;
+}
+.portfolio .work h4{
+    font-family: Montserrat-Regular;
+    font-size: 15px;
+    color: #fff;
+    padding: 60px 0;
+}
+.portfolio .work p{
+    font-family: crimsontext-roman;
+    font-size: 15px;
+    color: #fff;
+    line-height: 20px;
+}
+.portfolio .work i{
+    margin: 50px 20px;
+    color: #fff;
+}
+
+/*====================service part==============*/
+
+.service_full{
+    background-color: #f4f4f4;
+}
+.services{
+    height: 690px;
+}
+.service{
+    width: 370px;
+    height: 400px;
+    background-color: #fff;
+    margin: 145px 30px 145px 0;
+    text-align: center;
+    float: left;
+}
+.service:last-child{
+    margin-right: 0;
+}
+.service img{
+    margin: auto;
+    display: block;
+}
+.service h4{
+    font-family: Montserrat-Regular;
+    font-size: 15px;
+    color: #231f20;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.service p{
+    font-family: crimsontext-roman;
+    font-size: 15px;
+    color: #637988;
+    line-height: 20px;
+}
+.service .service_icon{
+    padding-top: 60px;
+    padding-bottom: 23px;
+}
+
+/*=============Client part==========*/
+
+.client_full{
+    background-color: #fff;
+}
+.client{
+    height: 716px;
+    text-align: center;
+}
+.client h4{
+    font-family: Montserrat-Regular;
+    font-size: 15px;
+    color: #231f20;
+    padding: 140px 0 40px 0;
+}
+.client p{
+    font-family: crimsontext-roman;
+    font-size: 15px;
+    color: #231f20;
+    padding-top: 35px;
+}
+.client_logo{
+    margin: 75px 58px;
+}
+
+/*================footer part=====================*/
+
+.footer_full{
+    background-color: #101012;
+}
+.footer{
+    height: 614px;
+}
+.footer .about{
+    width: 568px;
+    height: 499px;
+    margin: 58px 15px 55px 55px;
+    border: 1px solid #707070;
+    float: left;
+}
+.footer .contact{
+    width: 568px;
+    height: 499px;
+    margin: 58px 55px 55px 15px;
+    border: 1px solid #707070;
+    float: left;
+}
+/*------------about------------*/
+.about{
+    text-align: center;
+}
+.about h3{
+    font-family: Montserrat-Regular;
+    font-size: 25px;
+    color: #fff;
+    padding-top: 90px;
+    padding-bottom: 42px;
+}
+.about p{
+    font-family: crimsontext-roman;
+    font-size: 15px;
+    color: #9f9fa0;
+    padding-top: 90px;
+}
+/*---------------contact---------------*/
+.contact{
+    padding: 94px 68px 76px;
+    box-sizing: border-box;
+    font-family: Montserrat-Regular;
+    color: #fff;
+}
+.contact h3{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+.contact_us{
+    font-size: 15px;
+}
+.contact_us .email{
+    width: 432px;
+    height: 30px;
+    margin-top: 2px;
+    margin-bottom: 69px;
+    border: 0;
+    border-bottom: 1px solid #707070; 
+    background-color: #101012;
+    color: #fff;
+}
+.contact_us .message{
+    width: 432px;
+    height: 30px;
+    margin-top: 32px;
+    margin-bottom: 39px;
+    border: 0;
+    border-top: 1px solid #707070; 
+    border-bottom: 1px solid #707070;
+    background-color: #101012;
+    color: #fff;
+}
+.contact_us .submit{
+    border: 0;
+    background-color: #101012;
+    color: #01bbed;
+    float: right;
+    cursor: pointer;
+}
+.contact_us .submit:hover{
+    font-weight: bold;
+    font-weight: bold;
+}
+
+/*============copyright part================*/
+.copyright_full{
+    background-color: #00c7fc;
+}
+.copyright{
+    height: 130px;
+    color: #fff;
+}
+.copyright p{
+    font-size: 13px;
+    line-height: 130px;
+}
+.copyright .text{
+    width: 585px;
+    float: left;
+}
+.copyright .icon{
+    text-align: right;
+    width: 585px;
+    float: right;
+}
+.copyright .icon i{
+    color: #fff;
+    margin: 0 15px;
+}
